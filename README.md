@@ -14,13 +14,13 @@ The first line has to contain the precursor molecule.
 
 ## OPTIONS
 
--h
-    Print help message
--d: int
-    Numbers of points on initial grid per dimention (default 6)
--t: int
-    Maximum number of threads (default 4)
--s
-    Turn on penalizing for decharged molecules
--v
-    Verbose mode
+    -h
+        Print help message
+    -d: int
+        Numbers of points on initial grid per dimention (default 6)
+    -t: int
+        Maximum number of threads (default 4)
+    -s
+        Turn on penalizing for decharged molecules
+    -v
+        Verbose mode
