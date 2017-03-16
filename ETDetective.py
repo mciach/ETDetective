@@ -90,16 +90,16 @@ def fit_thread(threadID, precursor, breakable_bonds, data, jobs, results, job_co
         print_lock.release()
 
 help_text="""NAME
-    get_estimates.py
+    ETDetective.py
 
 SYNOPSIS
-    get_estimates.py [OPTIONS] FILE DIRECTORY
+    python ETDetective.py [OPTIONS] FILE DIRECTORY
 
 DESCRIPTION
     Estimates reaction intensities from data in FILE.
     Saves the estimates and predicted spectrum in DIRECTORY.
-    If a previous estimate exists for data in FILE, it is replaced by the new one.
-    FILE is a tab-separated file with columns for product subsequence, active protons, neutral protons, intensities.
+    If a previous estimate exists for data from FILE in DIRECTORY, it is replaced by the new one.
+    FILE has to be a tab-separated file with columns for product subsequence, active protons, neutral protons, intensities.
     The first line has to contain the precursor molecule.
 
 OPTIONS
