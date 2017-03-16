@@ -2,15 +2,18 @@
 A software for estimating the intensities of ETD and accompanying charge-reduction reactions
 
 SYNOPSIS
+
   python ETDetective.py [OPTIONS] [INPUT FILE] [OUTPUT DIRECTORY]
 
 DESCRIPTION
+
     Estimates reaction intensities from data in FILE.
     Saves the estimates and predicted spectrum in DIRECTORY.
     FILE has to be a tab-separated file with columns for product subsequence, active protons, neutral protons, intensities.
     The first line has to contain the precursor molecule.
 
 OPTIONS
+
     -h
         Print help message
     -d: int
