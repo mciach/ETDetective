@@ -9,7 +9,7 @@ A software for estimating the intensities of ETD and accompanying charge-reducti
 
 Estimates reaction intensities from data in FILE.
 Saves the estimates and predicted spectrum in DIRECTORY.
-FILE has to be a tab-separated file with columns for product subsequence, active protons, neutral protons, ion type (c/z), intensities.
+FILE has to be a tab-separated file with columns for product subsequence, active protons, neutral protons, ion type (cn/zn), intensities.
 The first line has to contain the precursor molecule.
 
 ## OPTIONS
